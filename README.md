@@ -22,3 +22,5 @@ Commit 5 - fix bug
 Commit 6 - refactor code
 
 Commit 7 - update docs
+
+Commit 8 - add utils
