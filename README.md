@@ -7,3 +7,4 @@ Commit 1: Sassy Start
 More progress 7: Coffee Overflow
 Doc update 12: Waffle Logic
 Docs: 18 - Doc Party
+Final note: 20 - Victory Lap
