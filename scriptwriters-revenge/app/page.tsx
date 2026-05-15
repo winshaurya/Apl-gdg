@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState } from 'react'
 import Hero from '../components/Hero'
 import LiveScoreboard from '../components/LiveScoreboard'
 import TerminalConsole from '../components/TerminalConsole'
@@ -13,7 +13,6 @@ export default function Page() {
   const [enabled, setEnabled] = useState(false)
   const [odds, setOdds] = useState<string[]>([])
   const [trends, setTrends] = useState<string[]>([])
-  const intervalRef = useRef<number | null>(null)
 
   useEffect(() => {
     async function load() {
@@ -23,13 +22,7 @@ export default function Page() {
     load()
   }, [])
 
-  useEffect(() => {
-    if (!enabled) return
-    // immediate trigger then interval
-    callGenerate()
-    intervalRef.current = window.setInterval(callGenerate, 20000)
-    return () => { if (intervalRef.current) clearInterval(intervalRef.current) }
-  }, [enabled])
+  // Only call generation when user explicitly clicks the button.
 
   async function callGenerate() {
     // fake odds and trends
@@ -38,7 +31,11 @@ export default function Page() {
     setOdds(o)
     setTrends(t)
     try {
-      const res = await fetch('/api/generate-script')
+      const res = await fetch('/api/generate-script', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ live, odds: o, trends: t })
+      })
       const json = await res.json()
       setScript(json.script)
       // TTS
