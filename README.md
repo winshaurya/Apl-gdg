@@ -14,3 +14,5 @@ Commit 1 - init project
 Commit 2 - add analysis
 
 Commit 3 - add main
+
+Commit 4 - add tests
