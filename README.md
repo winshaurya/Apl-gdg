@@ -18,3 +18,5 @@ Commit 3 - add main
 Commit 4 - add tests
 
 Commit 5 - fix bug
+
+Commit 6 - refactor code
