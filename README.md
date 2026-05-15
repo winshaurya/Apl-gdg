@@ -26,3 +26,5 @@ Commit 7 - update docs
 Commit 8 - add utils
 
 Commit 9 - remove debug
+
+Commit 10 - improve perf
