@@ -5,3 +5,4 @@ def summarize(values):
     return {"count": len(values), "mean": sum(values)/len(values)}
 \n# tiny tweak 2 - Tiny Triumph
 \ndef median(values): return sorted(values)[len(values)//2]
+\n# fixed edgecases 8 - Magic Smoke
