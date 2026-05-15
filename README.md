@@ -42,3 +42,5 @@ Commit 15 - format code
 Commit 16 - add ci
 
 Commit 17 - tighten types
+
+Commit 18 - cleanup imports
