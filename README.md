@@ -8,3 +8,5 @@ More progress 7: Coffee Overflow
 Doc update 12: Waffle Logic
 Docs: 18 - Doc Party
 Final note: 20 - Victory Lap
+
+Commit 1 - init project
