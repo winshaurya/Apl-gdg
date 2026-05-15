@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd scriptwriters-revenge && npm run build",
+  "outputDirectory": "scriptwriters-revenge/functions/.next",
+  "framework": "nextjs"
+}

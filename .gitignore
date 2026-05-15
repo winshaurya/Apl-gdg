@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+node_modules/
 # Distribution / packaging
 .Python
 build/
@@ -89,6 +89,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+# Ignore .env file for secrets
+.env
+
+# Ignore local env for the scriptwriters app
+/scriptwriters-revenge/.env.local
+
 
 # Spyder project settings
 .spyderproject

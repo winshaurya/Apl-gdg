@@ -11,13 +11,13 @@ export default function TerminalConsole({ text }: { text: string }) {
       i++
       setDisplay(text.slice(0, i))
       if (i >= text.length) clearInterval(t)
-    }, 20)
+    }, 18)
     return () => clearInterval(t)
   }, [text])
 
   return (
-    <div className="pixel-border p-4 bg-black/80 text-white font-mono h-64 overflow-auto">
-      <pre className="whitespace-pre-wrap">{display}</pre>
+    <div className="pixel-border p-4 bg-black/95 text-neonGreen font-mono h-64 overflow-auto crt-frame">
+      <pre className="whitespace-pre-wrap text-sm">{display}<span className="tty-cursor" /></pre>
     </div>
   )
 }
