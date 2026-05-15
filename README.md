@@ -20,3 +20,5 @@ Commit 4 - add tests
 Commit 5 - fix bug
 
 Commit 6 - refactor code
+
+Commit 7 - update docs
