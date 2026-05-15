@@ -38,3 +38,5 @@ Commit 13 - update config
 Commit 14 - add license
 
 Commit 15 - format code
+
+Commit 16 - add ci
