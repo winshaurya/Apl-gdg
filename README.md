@@ -30,3 +30,5 @@ Commit 9 - remove debug
 Commit 10 - improve perf
 
 Commit 11 - rename var
+
+Commit 12 - add readme
