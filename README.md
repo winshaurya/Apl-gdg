@@ -46,3 +46,5 @@ Commit 17 - tighten types
 Commit 18 - cleanup imports
 
 Commit 19 - fix tests
+
+Commit 20 - final polish
