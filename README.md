@@ -16,3 +16,5 @@ Commit 2 - add analysis
 Commit 3 - add main
 
 Commit 4 - add tests
+
+Commit 5 - fix bug
