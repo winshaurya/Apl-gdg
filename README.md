@@ -32,3 +32,5 @@ Commit 10 - improve perf
 Commit 11 - rename var
 
 Commit 12 - add readme
+
+Commit 13 - update config
