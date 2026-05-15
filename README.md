@@ -6,3 +6,4 @@ It's intentionally incremental to create a believable commit history.
 Commit 1: Sassy Start
 More progress 7: Coffee Overflow
 Doc update 12: Waffle Logic
+Docs: 18 - Doc Party
