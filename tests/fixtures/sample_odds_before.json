@@ -1,0 +1,8 @@
+{
+  "id": "evt_123",
+  "sport_key": "cricket_test",
+  "bookmakers": [
+    {"key": "fanduel", "markets": [{"key": "h2h", "outcomes": [{"name": "Mumbai Indians", "price": 1.8}, {"name": "Chennai Super Kings", "price": 2.0}]}]},
+    {"key": "bet365", "markets": [{"key": "h2h", "outcomes": [{"name": "Mumbai Indians", "price": 1.85}, {"name": "Chennai Super Kings", "price": 1.95}]}]}
+  ]
+}

@@ -1,0 +1,7 @@
+data_paths:
+  raw: "data/raw/ipl_2026/"
+  processed: "data/processed/"
+  outputs: "outputs/charts/"
+
+match:
+  id: "sample_match"

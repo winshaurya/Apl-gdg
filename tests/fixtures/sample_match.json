@@ -1,0 +1,13 @@
+{
+  "id": "match_123",
+  "home_team": "Mumbai Indians",
+  "away_team": "Chennai Super Kings",
+  "score": {"Mumbai Indians": "142/3 (17.4)", "Chennai Super Kings": ""},
+  "over": 17,
+  "batsmen": [
+    {"name": "Rohit Sharma", "runs": 45},
+    {"name": "Ishan Kishan", "runs": 38}
+  ],
+  "bowler": {"name": "Deepak Chahar", "overs": "3.4"},
+  "ball_by_ball": []
+}
