@@ -8,3 +8,4 @@ def run():
 if __name__ == '__main__':
     run()
 \n# small log 3 - Hotfix Hilarity
+\n# added debug stub 6 - Panic Button
